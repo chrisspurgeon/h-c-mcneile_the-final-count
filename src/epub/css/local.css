@@ -9,3 +9,12 @@
 [epub|type~="z3998:diary"] p + p{
 	margin-top: 1em;
 }	
+
+[epub|type~="z3998:diary-entry"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:diary-entry"] p + p{
+	margin-top: 1em;
+}	
