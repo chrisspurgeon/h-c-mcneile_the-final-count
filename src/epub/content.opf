@@ -49,7 +49,8 @@
 		<meta property="group-position" refines="#collection-1">4</meta>
 		<meta property="schema:abstract">An arch criminal tries to get his hands on the world’s deadliest poison.</meta>
 		<dc:description>
-			LONG_DESCRIPTION
+			&lt;p&gt;Chemist Robin Gaunt believes he’s discovered the key to lasting world peace — in the form of the horriffic poison gas he’s just perfected. Gaunt is certain that once the British governemt has the formula, no nation will ever dare start a war, for fear of the consequences. But before Gaunt can turn over the formula he vanishes, and people start turning up dead, victims of some horrible unknown poison.&lt;/p&gt;
+			&lt;p&gt;It doesn’t take long for Bulldog Drummond to be on the case — and it doesn’t take long for him to realize that the man behind the kidnapping and murders is his arch enemy Carl Peterson. This leads to a final confrontation worthy of a James Bond movie, as the hero and the evil genius face-off in a giant Zepplin loaded with deadly poison.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.fadedpage.com/showbook.php?pid=20120807</dc:source>
@@ -68,11 +69,8 @@
 		<link href="https://id.loc.gov/authorities/names/no96039399.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
-		<dc:contributor id="artist">COVER_ARTIST_NAME</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<link href="COVER_ARTIST_WIKI_URL" refines="#artist" rel="schema:sameAs"/>
-		<link href="COVER_ARTIST_NACOAF_URI" refines="#artist" rel="schema:sameAs"/>
-		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="artist">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#artist">Anonymous</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
