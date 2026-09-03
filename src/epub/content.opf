@@ -71,13 +71,19 @@
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#artist">Anonymous</meta>
-		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
+		<dc:contributor id="transcriber-1">David T. Jones</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Jones, David T.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
+		<dc:contributor id="transcriber-2">woodie4</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">woodie4</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Haines, Al</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders Canada team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders Canada team</meta>
+		<link href="http://www.pgdpcanada.nett/" refines="#transcriber-4" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Chris Spurgeon</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Spurgeon, Chris</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
